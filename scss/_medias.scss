@@ -1,0 +1,52 @@
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    .carousel-inner {
+        height: 300px;
+        width: 100%;
+        height: 50%;
+    }
+    .carousel-caption{
+     
+      padding-top: 80rem;
+    }
+
+    .portada {
+        height: 768px;
+        width: 768px;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+
+
+    .servicios{
+        font-size: 30px;
+    }
+    .letraMediana{
+        font-size: 19px;
+    }
+
+    .letraPequeña{
+        font-size: 12px;
+    }
+    .carousel-caption{
+        display: flex;
+        text-align: center;
+        padding-top: 10rem;
+    }
+
+  
+    .slider__slogan {
+display: flex;
+text-align: center;
+
+    }
+    .portada {
+        height: 480px;
+        width: 480px;
+    }
+
+}

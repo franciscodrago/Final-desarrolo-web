@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/*VARIABLES*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white; }
+
+header {
+  grid-area: header__container;
+  width: 100%; }
+  header .collapse .navbar-nav .nav-link {
+    list-style: none;
+    display: inline-block;
+    background-color: #222222;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0 11px 0 11px;
+    transition: all 0.2s ease-in-out; }
+  header .logo {
+    height: 90px;
+    width: 90px; }
+  header .bottom {
+    background-color: white;
+    color: whitesmoke; }
+  header:hover {
+    border-radius: 50%; }
+
+.carousel-inner {
+  width: 100%;
+  height: 50%; }
+
+.carousel-caption {
+  padding-top: 50rem; }
+
+.slider__slogan {
+  display: flex;
+  text-align: center;
+  padding-top: 10rem; }
+
+.identidad {
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  padding: 2% 15% 2% 15%; }
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  padding: 1px; }
+
+.contacto {
+  margin: 20px; }
+
+.enviar {
+  margin: 5px;
+  padding: 0.5px;
+  background-color: black; }
+
+.servicios {
+  grid-area: servicios;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 50px; }
+
+.servicios_col {
+  display: block;
+  box-sizing: border-box;
+  width: 400px;
+  padding: 10px;
+  inset-block: 10px; }
+
+.servicios_col img {
+  width: 50%;
+  border-radius: 8px;
+  border-color: black; }
+
+.footer-flex .iconos {
+  display: flex;
+  justify-content: center;
+  background-color: #222222; }
+  .footer-flex .iconos .redes1 {
+    margin: 10px 7px 15px 7px; }
+  .footer-flex .iconos .parrafo {
+    color: bisque; }
+
+.boton {
+  background-color: #575757;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black; }
+  .boton:hover {
+    filter: opacity(85%); }
+
+.letraPequeña {
+  font-size: 1rem;
+  font-weight: 100; }
+
+.letreaMediana {
+  font-size: 2rem;
+  font-weight: 500; }
+
+.letraGrande {
+  font-size: 3rem;
+  font-weight: 700; }
+
+.botonFacebook {
+  color: #1190f1; }
+
+.botonInstagram {
+  color: #f11163; }
+
+.botonWhatsapp {
+  color: #21d31e; }
+
+.col -1 {
+  width: 10%; }
+
+.col -2 {
+  width: 20%; }
+
+.col -3 {
+  width: 30%; }
+
+.col -4 {
+  width: 40%; }
+
+.col -5 {
+  width: 50%; }
+
+.col -6 {
+  width: 60%; }
+
+.col -7 {
+  width: 70%; }
+
+.col -8 {
+  width: 80%; }
+
+.col -9 {
+  width: 90%; }
+
+.col -10 {
+  width: 100%; }
+
+.green {
+  color: green; }
+
+.yellow {
+  color: yellow; }
+
+.black {
+  color: black; }
+
+.botonFacebook {
+  color: #1190f1; }
+
+.botonInstagram {
+  color: #f11163; }
+
+.botonWhatsapp {
+  color: #21d31e; }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+  .carousel-inner {
+    height: 300px;
+    width: 100%;
+    height: 50%; }
+  .carousel-caption {
+    padding-top: 80rem; }
+  .portada {
+    height: 768px;
+    width: 768px; } }
+
+@media screen and (max-width: 480px) {
+  .servicios {
+    font-size: 30px; }
+  .letraMediana {
+    font-size: 19px; }
+  .letraPequeña {
+    font-size: 12px; }
+  .carousel-caption {
+    display: flex;
+    text-align: center;
+    padding-top: 10rem; }
+  .slider__slogan {
+    display: flex;
+    text-align: center; }
+  .portada {
+    height: 480px;
+    width: 480px; } }
